@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* height: 150vh; */
+}
+#one{
+    background-color: hsl(246, 100%, 50%);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 230px;
+}
+
+#one-sub{
+    background-color: hsl(246, 61%, 64%);
+    height: 50px;
+    width: 50px;
+    /* position: relative;
+    left: 25%;
+    top: 25%; */
+    position: absolute;
+    /* position: relative; */
+    top: 120px;
+    /* right: 100px; */
+}
+
+#two{
+    background-color: hsl(0, 100%, 50%);
+    height: 100px;
+    width: 100px;
+    /* position: absolute;
+    bottom: 0px; */
+    position: relative;
+    left: 30px;
+}
+
+#three{
+    background-color: hsl(115, 75%, 30%);
+    height: 100px;
+    width: 100px;
+    /* position: fixed; */
+}
+#four{
+    background-color: hsl(64, 90%, 51%);
+    height: 100px;
+    width: 100px;
+    /* position: sticky;
+    z-index: 10; */
+}
